@@ -1,0 +1,119 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	padding: 0;
+	font: 12px "microsoft yahei";
+	color: #222222;
+	background: #FEF1EF;
+}
+.cartbody{
+	margin: 20px auto ;
+	width: 1180px;
+}
+.cartbody .bodywrap {
+    float: left;
+    width: 1180px;
+    border: 1px solid #DEDEDE;
+    background: #FFFFFF;
+}
+.cartbody .bodywrap .wraphead {
+    padding: 10px 20px 0 20px;
+    width: 1140px;
+    height: 40px;
+    border-top: 3px solid #FFC0C1;
+}
+.cartbody .bodywrap .wraphead .headwrap {
+    width: 1140px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #DEDEDE;
+    font-weight: bold;
+    text-indent: 30px;
+    background: url(../images/carticon.jpg) no-repeat left center;
+}
+.cartbody .bodywrap .wrapmain {
+    padding: 10px 20px;
+    width: 1140px;
+}
+.cartbody .bodywrap .wrapmain table {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+.cartbody .bodywrap .wrapmain table tr.headrow {
+    height: 30px;
+    line-height: 30px;
+}
+.cartbody .bodywrap .wrapmain table td.img {
+    width: 110px;
+}
+.cartbody .bodywrap .wrapmain table td {
+    padding: 5px;
+    text-align: center;
+}
+.cartbody .bodywrap .wrapmain table td.size {
+    width: 100px;
+}
+.cartbody .bodywrap .wrapmain table td.word {
+    width: 150px;
+}
+.cartbody .bodywrap .wrapmain table td.price {
+    width: 100px;
+}
+.cartbody .bodywrap .wrapmain table td.action {
+    width: 100px;
+}
+.cartbody .bodywrap .wrapmain table tr.product {
+    background: #F7F7F7;
+}
+.carthots {
+    width: 100%;
+    padding: 20px 0;
+    background: #FFFFFF;
+}
+.carthots .hotswrap {
+    margin: 0 auto;
+    width: 1180px;
+}
+.carthots .hotswrap .wraphead {
+    padding: 0 10px;
+    width: 1160px;
+    height: 34px;
+    background: url(../images/hotbg.png);
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+}
+.carthots .hotswrap .wraphead .headleft {
+    float: left;
+    width: 300px;
+    height: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    text-indent: 25px;
+    background: url(../images/lovebg.png) no-repeat left center;
+}
+.carthots .hotswrap .wraphead .headright {
+    float: right;
+    padding-right: 5px;
+    width: 300px;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+}
+.carthots .hotswrap .wrapmain {
+    margin-top: 10px;
+    padding: 20px 10px;
+    width: 1158px;
+    height: 200px;
+    border: 1px solid #DEDEDE;
+}
+.carthots .hotswrap .wrapmain .maincenter {
+    float: left;
+    width: 1100px;
+}
+.carthots .hotswrap .wrapmain .maincenter ul li img {
+    height: 182px;
+}

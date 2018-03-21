@@ -1,0 +1,430 @@
+@charset "UTF-8";
+
+/*banner*/
+#banner{
+	
+	
+	height:420px;
+}
+.inner{
+	position: relative;
+	width: 100%;
+	height:420px;
+	overflow: hidden;
+}
+.box5{
+	list-style:none;
+		position: absolute;
+		left:0; top:0;
+		width: 100%;
+		height: 420px;
+}
+.box5 li{
+	float:left;
+}
+.nima img{
+	width:1920px;
+}
+#banner ol{
+	position:absolute;
+	/*bottom: 210px;*/
+	left:50%
+}
+ ol li{
+	float:left;
+	width:16px;
+	height:16px;
+	background:#6D6C6C;
+	border-radius:50%;
+	margin-right: 5px;
+}
+.currder{
+	background:orange;
+}
+#show{
+	width: 1180px;
+	height:210px;
+	margin: 0 auto;
+	margin-top:18px ;
+}
+#show .left{
+	float: left;
+    padding: 4px;
+    width: 310px;
+    height: 200px;
+    line-height: 9px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    overflow: hidden;
+    }
+#show .center{
+	float: left;
+    margin-left: 15px;
+    padding: 4px;
+    width: 500px;
+    height: 200px;
+    line-height: 9px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    overflow: hidden;
+}
+#show  a{
+	color:#000000
+}	
+
+#show .right{
+	float: left;
+    margin-left: 15px;
+    padding: 4px;
+    width: 310px;
+    height: 200px;
+    line-height: 9px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    overflow: hidden;
+}
+/*show2*/
+#show2{
+	width: 1180px;
+	height:161px;
+	margin: 0 auto;
+	margin-top:18px;
+	background:#f9f9f9;
+	border:1px solid #ccc;
+}
+#show2 .left2{
+	width: 616px;
+    height: 159px;
+    float: left;
+    background-color: #f9f9f9
+}
+#show2 .left2 img{
+	margin-top: 20px;
+    margin-left: 15px;
+}
+#show2 .right2{
+	width: 562px;
+    height: 159px;
+    float: left;
+    background:url(../images/首页_03.jpg) no-repeat 0 20px;
+}
+#show2 .right2 .inputval{
+	margin-top: 20px;
+    float: left;
+    width: 215px;
+    height: 33px;
+}
+#show2 .right2 .inputval .inputcss{
+	float: left;
+    width: 50px;
+    height: 33px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+#show2 .right2 .inputval .inputline{
+	float: left;
+    width: 20px;
+    height: 33px;
+    line-height: 30px;
+}
+#show2 .right2 .inputval .rightinputcss{
+	float: left;
+    width: 50px;
+    height: 33px;
+    margin-top: 5px;
+}
+.rightinputtxt{
+	height:33px;
+	line-height: 33px;
+	font-size: 12px;
+}
+.yanse{
+	float: left;
+	height: 33px;
+	margin-top: 20px;
+	margin-left:67px;
+	width: 242px;
+}
+.yanse .img1{
+	cursor: pointer;
+    float: left;
+    padding: 0 2px;
+    height: 24px;
+}
+.yanse .img1 img{
+
+	padding:3px 3px;
+}
+.yanse .img2 img{
+	padding-top:3px;
+}
+.yanse2{
+	float: left;
+	height: 33px;
+	margin-top: 14px;
+	margin-left:47px;
+	width: 220px;
+}
+.yanse2 .img1{
+	cursor: pointer;
+    float: left;
+    padding: 4px 2px;
+    height: 24px;
+}
+.yanse3{
+	float: left;
+	height: 33px;
+	margin-top: 17px;
+	margin-left:7px;
+	width: 242px;
+}
+.yanse3 .img1{
+	cursor: pointer;
+    float: left;
+    padding: 0 2px;
+    height: 24px;
+}
+#show3{
+	width: 1180px;
+	height:429px;
+	margin-top:18px;
+	margin: 0 auto;
+	border:1px solid #ccc;
+}
+#show3 .left4{
+	float: left;
+	width: 321px;
+	height: 429px;
+	margin-top:6px ;                       
+}
+#show3 .left4 img{
+	width: 321px;
+}
+#show3 .left4 .homelef{
+	width: 200px;
+	height: 120px;
+	float: left;
+	
+	margin:12px 0 5px 0;
+}
+#show3 .left4 .homelef div{
+	float: left;
+	width: 200px;
+	height: 24px;
+	line-height: 24px;
+	text-indent:10px;
+}
+#show3 .left4 .homelef div a{
+	font-size: 12px;
+}	
+#show3 .left4 .homelef div a:hover{
+	color:#c11f20;
+}
+#show3 .certen1{
+	float: left;
+	width: 259px;
+	height: 429px;
+	
+}
+#show3 .right3{
+	float:left;
+	width: 600px;
+	height:420px;
+
+}
+#show3 .right3 .rightTop{
+	float: left;
+	width: 299px;
+	height:211px;
+	
+}
+#show3 .right3 .rightTopr{
+	float: left;
+	width: 301px;
+	height:211px;
+	
+}
+#show3 .right3 .rightBottom{
+	float:left;
+	width: 600px;
+	height: 218px;
+	
+	overflow: hidden;
+}
+#show3 .right3 .rightBottom .rightbottomringht{
+	float:left;
+	width: 200px;
+	height: 218px;
+	
+	overflow: hidden;
+}
+#show3 .right3 .rightBottom .rightbottomcenter{
+	float:left;
+	width: 195px;
+	height: 218px;
+	overflow: hidden;
+}
+
+#show4{
+	height:116px;
+	margin-top:18px;
+	overflow: hidden;
+	width: 1180px;
+	margin:0 auto;
+}
+#show4 div{
+	float:left;
+}
+#show5{
+		height:429px;
+	margin-top:18px;
+	overflow: hidden;
+	border:1px solid #ccc;
+	width: 1180px;
+	margin: 0 auto;
+}
+#show5 .left5{
+	float: left;
+	width: 321px;
+	height: 429px;
+	margin-top:6px ;                       
+}
+#show5 .left5 .homelef1{
+	width: 200px;
+	height: 120px;
+	float: left;
+	
+	margin:12px 0 5px 0;
+}
+#show5 .left5 .homelef1 div{
+	float: left;
+	width: 200px;
+	height: 24px;
+	line-height: 24px;
+	text-indent:10px;
+}
+#show5 .left5 .homelef1 div a{
+	font-size:12px;
+}
+#show5 .left5 .homelef1 div a:hover{
+	color:#c11f20;
+}
+#show5 .right31{
+	float:left;
+	width: 600px;
+	height:420px;
+
+}
+#show5 .right31 .rightTop3{
+	float: left;
+	width: 299px;
+	height:211px;
+	
+}
+#show5 .right31 .rightTopri{
+	float: left;
+	width: 301px;
+	height:211px;
+	
+}
+#show5 .right31 .rightBottom1{
+	float:left;
+	width: 600px;
+	height: 218px;
+	
+	overflow: hidden;
+}
+#show5 .right31 .rightBottom1 .rightbottomringht1{
+	float:left;
+	width: 200px;
+	height: 218px;
+	
+	overflow: hidden;
+}
+#show5 .right31 .rightBottom1 .rightbottomcenter1{
+	float:left;
+	width: 195px;
+	height: 218px;
+	overflow: hidden;
+}
+#show5 .certen11{
+	float: left;
+	width: 259px;
+	height: 429px;
+	
+}
+#show6{
+	height:116px;
+	width: 1180px;
+	margin-top: 18px;
+	margin: 0 auto;
+}
+#new{
+	height: 290px;
+	margin-top: 18px;
+	width: 1180px;
+	margin: 0 auto;
+}
+#new .newWarp{
+	float:left;
+	margin-right: 10px;
+	width: 320px;
+	height: 288px;
+
+	border:1px solid #e3e3e3;
+	
+}
+#new .newWarp .warpTop{
+	float: left;
+	width: 320px;
+	height: 33px;
+	text-indent:13px;
+	line-height:33px;
+	font-weight:600;
+	font-size: 12px;
+	background:url(../images/images/newtop_03.jpg)
+}
+#new .newWarp .warpMin{
+	float: left;
+	width: 310px;
+	height: 245px;
+	padding: 5px;
+	;
+}
+#new .newWarp .warpMin .tutu{
+	float:left;
+	width: 310px;
+	height: 95px;
+}
+#new .newWarp .warpMin .matter{
+	float: left;
+	width: 310px;
+	height: 135px;
+	
+	margin-top: 10px;
+}
+#new .newWarp .warpMin .matter div{
+	float:left;
+	width: 300px;
+	height: 27px;
+	line-height: 27px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.warpright{
+	float: left;
+	width:184px ;
+	height: 290px;
+	
+}
+.cityshop { margin: 0 auto; padding-top: 20px; width: 1180px; height: 260px; background: #FFFFFF; }
+.cityshop .line { float: left; width: 1180px; height: 35px; overflow: hidden; background: url(../images/images/231_03.jpg)repeat-x  0  32px;}
+.cityshop .line .text { float: left; padding-left: 15px; width: 385px; height: 35px; line-height: 35px; font-size: 18px; font-weight: bold;}
+.cityshop .line .list { float: left; }
+.cityshop .line .name { float: left; width: 65px; height: 35px; line-height: 35px; font-weight: bold; cursor: pointer; text-align: center; }
+
+.cityshop .city { float: left; width: 679px; height: 225px; overflow: hidden; text-align: center; line-height: 32px; font-size: 14px; background: url(../images/map.png) no-repeat; border-left: 1px solid #6B6B6B; }
+.cityshop .city .local { padding: 35px 0 25px 0; font-size: 20px; font-weight: bold; }
+.cityshop .shop { float: left; width: 500px; height: 225px; overflow: hidden; }
+.cityhide { display: none; }
+.cityline { clear: both; margin: 0 auto; width: 1180px; height: 30px; background: url(.../images/linebg.jpg); }
